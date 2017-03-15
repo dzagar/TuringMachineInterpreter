@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36BD260B1E78CAB7008CCFA1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36BD260A1E78CAB7008CCFA1 /* main.cpp */; };
+		36BD26131E78CB09008CCFA1 /* StateTransition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36BD26111E78CB09008CCFA1 /* StateTransition.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36BD26051E78CAB7008CCFA1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36BD26071E78CAB7008CCFA1 /* TuringMachineInterpreter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TuringMachineInterpreter; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BD260A1E78CAB7008CCFA1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36BD26111E78CB09008CCFA1 /* StateTransition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateTransition.cpp; sourceTree = "<group>"; };
+		36BD26121E78CB09008CCFA1 /* StateTransition.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StateTransition.hpp; sourceTree = "<group>"; };
+		36BD26141E78CB4A008CCFA1 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		36BD26151E78CBC1008CCFA1 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36BD26041E78CAB7008CCFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36BD25FE1E78CAB7008CCFA1 = {
+			isa = PBXGroup;
+			children = (
+				36BD26091E78CAB7008CCFA1 /* TuringMachineInterpreter */,
+				36BD26081E78CAB7008CCFA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36BD26081E78CAB7008CCFA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36BD26071E78CAB7008CCFA1 /* TuringMachineInterpreter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36BD26091E78CAB7008CCFA1 /* TuringMachineInterpreter */ = {
+			isa = PBXGroup;
+			children = (
+				36BD260A1E78CAB7008CCFA1 /* main.cpp */,
+				36BD26111E78CB09008CCFA1 /* StateTransition.cpp */,
+				36BD26121E78CB09008CCFA1 /* StateTransition.hpp */,
+				36BD26141E78CB4A008CCFA1 /* input.txt */,
+				36BD26151E78CBC1008CCFA1 /* output.txt */,
+			);
+			path = TuringMachineInterpreter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36BD26061E78CAB7008CCFA1 /* TuringMachineInterpreter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BD260E1E78CAB7008CCFA1 /* Build configuration list for PBXNativeTarget "TuringMachineInterpreter" */;
+			buildPhases = (
+				36BD26031E78CAB7008CCFA1 /* Sources */,
+				36BD26041E78CAB7008CCFA1 /* Frameworks */,
+				36BD26051E78CAB7008CCFA1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuringMachineInterpreter;
+			productName = TuringMachineInterpreter;
+			productReference = 36BD26071E78CAB7008CCFA1 /* TuringMachineInterpreter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36BD25FF1E78CAB7008CCFA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Dana Zagar";
+				TargetAttributes = {
+					36BD26061E78CAB7008CCFA1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 36BD26021E78CAB7008CCFA1 /* Build configuration list for PBXProject "TuringMachineInterpreter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36BD25FE1E78CAB7008CCFA1;
+			productRefGroup = 36BD26081E78CAB7008CCFA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36BD26061E78CAB7008CCFA1 /* TuringMachineInterpreter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36BD26031E78CAB7008CCFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BD26131E78CB09008CCFA1 /* StateTransition.cpp in Sources */,
+				36BD260B1E78CAB7008CCFA1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36BD260C1E78CAB7008CCFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36BD260D1E78CAB7008CCFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36BD260F1E78CAB7008CCFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36BD26101E78CAB7008CCFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36BD26021E78CAB7008CCFA1 /* Build configuration list for PBXProject "TuringMachineInterpreter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BD260C1E78CAB7008CCFA1 /* Debug */,
+				36BD260D1E78CAB7008CCFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36BD260E1E78CAB7008CCFA1 /* Build configuration list for PBXNativeTarget "TuringMachineInterpreter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BD260F1E78CAB7008CCFA1 /* Debug */,
+				36BD26101E78CAB7008CCFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36BD25FF1E78CAB7008CCFA1 /* Project object */;
+}
