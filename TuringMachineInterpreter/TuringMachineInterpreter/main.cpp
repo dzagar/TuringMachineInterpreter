@@ -6,6 +6,8 @@
 //  Copyright © 2017 Dana Zagar. All rights reserved.
 //
 
+//XCODE
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -49,14 +51,14 @@ int main(int argc, const char * argv[]) {
         
         //Find i (input tape)
         if (std::find(fmtLine.begin(), fmtLine.end(), "i") != fmtLine.end()){
-            //Add '_' to start and end of new tape
-            std::string newTape = "_";
+            //Add 'Z' to start and end of new tape
+            std::string newTape = "Z";
             //Build new tape string
             for (int i = 0; i < fmtLine.size(); i++){
                 if (fmtLine[i] == "i") continue;
                 newTape += fmtLine[i];
             }
-            newTape += "_";
+            newTape += "Z";
             //Add tape to tapes vector
             tapes.push_back(newTape);
             continue;
